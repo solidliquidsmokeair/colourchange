@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    width: 10%;
+    height: 20px;
+}
