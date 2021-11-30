@@ -1,0 +1,24 @@
+body {
+    background-color: #0000;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 10%;
+    height: 20px;
+}
+
+#clickMe {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 30px;
+}
