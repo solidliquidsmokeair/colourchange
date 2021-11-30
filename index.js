@@ -4,8 +4,7 @@ const button = document.getElementById("clickMe")
 // var array = ['blue', 'red', 'orange', 'yellow', 'gray', 'green']
 // var color = 0
 
-var randomColor = 
-
+var randomColor = 0
 
 button.addEventListener("click", function(){ 
 
@@ -17,5 +16,11 @@ randomColor = Math.floor(Math.random()*16777215).toString(16);
     // color++
 
     document.body.style.backgroundColor = "#" + randomColor
+    
+    document.getElementsByClassName('colorName').innerText = "#" + randomColor
+
+    document.getElementById('colorName').textContent = '#' + randomColor
+    
     console.log(randomColor)
+    console.log(colorName)
 })
